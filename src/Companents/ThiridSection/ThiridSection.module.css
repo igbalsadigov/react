@@ -1,0 +1,57 @@
+.aboutMain {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37373F;
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 30px;
+}
+
+.aboutText {
+    width: 100%;
+}
+
+.aboutFinance {
+    width: 100%;
+
+}
+
+.aboutFinance a {
+    color: rgb(180, 156, 115);
+}
+
+.aboutIcon {
+    font-size: 40px;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+span {
+    color:
+        rgb(180, 156, 115);
+}
+
+button {
+    background-color: aqua;
+    border: none;
+    width: 20%;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: rgb(180, 156, 115);
+    color: white;
+}
+
+
+@media screen and (min-width: 270px) and (max-width: 991px) {
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
